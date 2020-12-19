@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "au.com.bapp"
+    },
+    "jhipsterVersion": "6.10.5",
+    "applicationType": "microservice",
+    "baseName": "binventory",
+    "packageName": "au.com.bapp",
+    "packageFolder": "au/com/bapp",
+    "serverPort": "8082",
+    "authenticationType": "jwt",
+    "cacheProvider": "redis",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": "kafka",
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "NDIyZGVkOTY2ZWVmNTQ0NjFkMTEwMjhmNWMxOWIxNmQ5NjgxM2ZlYWFiMjFiMzliMjZhYmE0OWM4Mjg5NzRiYzA4MTdjNDlmOGQ2NDk4YWFjYzY3OGI5NjY2MGFlN2I0YTJjODM3NzAzM2Q4MTZlYjM1MjM5MTRiMzEyYmMwNDk=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1608336824014,
+    "testFrameworks": ["cucumber"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true,
+    "lastLiquibaseTimestamp": 1608373441000
+  }
+}

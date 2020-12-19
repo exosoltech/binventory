@@ -1,0 +1,38 @@
+{
+  "fluentMethods": true,
+  "clientRootFolder": "binventory",
+  "relationships": [],
+  "fields": [
+    {
+      "fieldName": "itemName",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "minlength", "maxlength"],
+      "fieldValidateRulesMinlength": "2",
+      "fieldValidateRulesMaxlength": 20
+    },
+    {
+      "fieldName": "itemId",
+      "fieldType": "Long",
+      "fieldValidateRules": ["required", "unique"]
+    },
+    {
+      "fieldName": "itemQuantity",
+      "fieldType": "Integer",
+      "fieldValidateRules": []
+    },
+    {
+      "fieldName": "comment",
+      "fieldType": "String"
+    }
+  ],
+  "changelogDate": "20201219102401",
+  "dto": "no",
+  "searchEngine": false,
+  "service": "no",
+  "entityTableName": "item",
+  "databaseType": "sql",
+  "readOnly": false,
+  "jpaMetamodelFiltering": false,
+  "pagination": "pagination",
+  "microserviceName": "binventory"
+}
